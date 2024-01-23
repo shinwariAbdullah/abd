@@ -50,3 +50,35 @@ const myFunction = function(){
 
 console.log(typeof heros);
 
+
+
+
+
+
+//////////////////////////++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// stack(primitive), heap(non-primitive)
+
+
+let myyoutubeName = "abdullah"
+let anothername = "shinwari"
+console.log(anothername);
+console.log(myyoutubeName);
+
+
+
+
+
+
+
+
+let userOne = {
+    name: "Abdllah",
+    email: "kahna22@ll.com"
+}
+
+let userTwo = userOne
+userTwo.email = "Abdullahkhan@hmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
