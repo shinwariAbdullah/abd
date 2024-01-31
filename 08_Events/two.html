@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Abdullah</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    // set timeout
+    setTimeout(function(){
+   console.log("Abdullah");
+    },2000)
+
+
+    // second exapme
+  const Abdullahk =  function(){
+   console.log("Abdullahkhan");
+}
+setTimeout(Abdullahk,3000)
+
+
+
+// next example change the inneer html text h1 2 after 2 second
+const changeText = function(){
+    document.querySelector('h1').innerHTML = "javascript"
+   
+}
+const chnageMe =  setTimeout(changeText,2000)
+
+   document.querySelector('#stop').addEventListener('click',function(){
+    clearTimeout(chnageMe)
+    console.log("stopped");
+   })
+
+
+
+</script>
+</html>
